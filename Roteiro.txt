@@ -1,0 +1,16 @@
+1 - FIGMA DO PROJETO
+https://www.figma.com/design/ZNOw0NyXERvRaxQU5KXWmf/Cart%C3%A3o-fidelidade-(Community)-(Copy)?node-id=3-377&node-type=canvas&t=cCKaBBz4fMloscU0-0
+
+--------------------------------------------------
+2 - Criando o Index.html
+2.1 - Puxando as fontes do google (https://fonts.google.com/specimen/Oxygen)
+
+--------------------------------------------------
+3 - Criar a pasta styles (Criar variaveis iniciais FIGMA)
+3.1 - Criar o arquivo styles>global.css com as caracteristicas do figma
+
+--------------------------------------------------
+4 - Criar a pasta assets (Logos, icones e img do FIGMA)
+4.1 - Criar a pasta assets>icons do FIGMA
+
+
