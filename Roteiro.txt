@@ -6,11 +6,18 @@ https://www.figma.com/design/ZNOw0NyXERvRaxQU5KXWmf/Cart%C3%A3o-fidelidade-(Comm
 2.1 - Puxando as fontes do google (https://fonts.google.com/specimen/Oxygen)
 
 --------------------------------------------------
-3 - Criar a pasta styles (Criar variaveis iniciais FIGMA)
+3 - Criar a pasta src>styles (Criar variaveis iniciais FIGMA)
 3.1 - Criar o arquivo styles>global.css com as caracteristicas do figma
 
 --------------------------------------------------
-4 - Criar a pasta assets (Logos, icones e img do FIGMA)
+4 - Criar a pasta src>assets (Logos, icones e img do FIGMA)
 4.1 - Criar a pasta assets>icons do FIGMA
 
+--------------------------------------------------
+5 - Criar o arquivo src>main.js para definir os imports e declarar o "use strict" do javascript. Este será o arquivo de entrada do js main.js
+5.1 - ja declarar o import import "./styles/global.css";
 
+--------------------------------------------------
+6 - Criar o header da pagina no index.html
+6.1 - Criar o arquivo src>styles>header.css
+6.2 - Importar no arquivo src>main.js import "./styles/header.css";
