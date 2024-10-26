@@ -12,4 +12,83 @@ header {
     height: 3.5rem;
   }
 
+  & form {
+    position: relative;
+    display: inline-block;
+  }
+
+  & input {
+    width: 25rem;
+    height: 3.5rem;
+    background-color: var(--gray-300);
+    border: 2px solid var(--gray-400);
+    border-radius: .75rem;
+
+    /*Define a area de dentro do Input, lado direito um espaço maior*/
+    padding: 1rem 3.75rem 1rem 1rem;
+
+    /*Estiliza a borda do Input*/
+    &:focus {
+      outline: 2px solid var(--pink);
+    }
+
+    /*Estiliza a fonte de dentro do Input*/
+    &::placeholder{
+      color: var(--gray-700);
+      font: var(--text-md);
+    }
+  }
+
+  & button {
+    /*position: absolute - O elemento é removido do fluxo normal do documento e nenhum espaço é criado para o elemento no layout da página. O elemento é posicionado em relação ao seu ancestral posicionado mais próximo (se houver) ou ao bloco de contenção inicial. Sua posição final é determinada pelos valores de top, right, bottom e left.*/
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    border: none;
+    border-radius: .5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    background-color: var(--gray-700);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    &:hover {
+      background-color: var(--gray-600);
+    }
+
+    &:disabled{
+      background-color: var(--gray-700);
+      opacity: .6;
+    } 
+
+    & img {
+      max-width: 100%;
+      max-height: 70%;
+    }
+  }
+}
+
+@media (width <= 40em){
+  header {
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+
+  & img {
+    width: 6.25rem;
+    height: 3rem;
+  }  
+
+  & form {
+    /*Faz o input se ajustar ao tamanho da tela*/
+    width: 100vw;
+    padding-inline: .75rem;
+
+    & input {
+      width: 100%;
+    }    
+
+    & button {
+      right: 1.25rem;
+    }    
+  }
 }
