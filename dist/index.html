@@ -20,9 +20,103 @@
     <form>
       <input type="text" maxlength="15" placeholder="ID do cartão">
       <button>
-          <img src="src/assets/icons/arrow.svg" alt="">
+        <img src="src/assets/icons/arrow.svg" alt="">
       </button>
-  </form>    
+    </form>    
   </header>
+
+  <main id="content">
+    <div class="card" id="user-info">
+      <div class="img-container">
+        <img src="src/assets/img/124-537-835-230.png" alt="Profile picture">        
+      </div>
+      <div>
+        <h1 id="user-name">Natália Miranda</h1>
+        <span id="user-since">Cliente desde 01/01/2000</span>
+      </div>
+    </div>
+
+    <div class="card" id="member-card">
+      <div id="card-header">
+        <div>
+            <h2>Cartão fidelidade</h2>
+            <span>Ao fazer cortes de cabelo, o décimo sai de graça!</span>
+        </div>
+        <span id="card-id">ID: 124-537-835-230</span>
+      </div>   
+
+      <div id="card-grid">
+        <div class="slot complete">
+            <img src="src/assets/icons/pin-check.svg" alt="Complete">
+        </div>
+        <div class="slot complete">
+            <img src="src/assets/icons/pin-check.svg" alt="Complete">
+        </div>
+        <div class="slot complete">
+            <img src="src/assets/icons/pin-check.svg" alt="Complete">
+        </div>
+        <div class="slot complete">
+            <img src="src/assets/icons/pin-check.svg" alt="Complete">
+        </div>
+        <div class="slot complete">
+            <img src="src/assets/icons/pin-check.svg" alt="Complete">
+        </div>
+        <div class="slot complete">
+            <img src="src/assets/icons/pin-check.svg" alt="Complete">
+        </div>
+        <div class="slot">
+            <img src="src/assets/icons/pin-check.svg" alt="Complete">
+        </div>
+        <div class="slot">
+            <img src="src/assets/icons/pin-check.svg" alt="Complete">
+        </div>
+        <div class="slot">
+            <img src="src/assets/icons/pin-check.svg" alt="Complete">
+        </div>
+        <div class="slot last">
+            <img id="slot-complete" src="src/assets/icons/gift.svg" alt="Complete">
+        </div>
+      </div>
+    </div>
+
+    <div class="card" id="remaining">
+      <div id="progress-info">
+          <h2>3 <strong>cortes restantes</strong></h2>
+
+          <div id="progress-track">
+              <div id="progress-base">
+                  <div id="progress-bar"></div>
+              </div>
+              <span>7 de 10</span>
+          </div>
+      </div>
+      <div id="icon-container">
+          <img src="src/assets/icons/pin-gift.svg" alt="">
+      </div>
+  </div>
+
+
+  <div class="card" id="appointment-history">
+      <div id="history-amount">
+          <h2>Histórico</h2>
+          <span>7 cortes</span>
+      </div>
+
+      <ul id="history-list">
+        <div class="border"></div>
+
+          <!-- <li class="history-item">
+              <div>
+                  <span class="history-date">29/04/2024</span>
+                  <span class="history-time">18:30</span>
+              </div>
+
+              <div>
+                  <img src="src/assets/icons/check.svg" alt="Check icon">
+              </div>
+          </li>-->
+      </ul>
+    </div>
+  </main>
 </body>
 </html>

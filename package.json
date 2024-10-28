@@ -1,6 +1,6 @@
 {
   "name": "memberclub",
-  "description": "Aplicação Web de agendamento para corte de cabelo",
+  "description": "Aplicação Web de cartão fidelidade para corte de cabelo",
   "author": "André Capolupo",
   "scripts": {
     "build": "webpack",
