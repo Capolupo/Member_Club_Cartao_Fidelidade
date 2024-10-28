@@ -21,7 +21,8 @@ https://www.figma.com/design/ZNOw0NyXERvRaxQU5KXWmf/Cart%C3%A3o-fidelidade-(Comm
 6 - Criar o header da pagina no index.html
 6.1 - Criar o arquivo src>styles>header.css
 6.2 - Importar no arquivo src>main.js import "./styles/header.css";
-
+6.3 - Criar o arquivo src>styles>content.css
+6.4 - Importar no arquivo src>main.js import "./styles/content.css";
 --------------------------------------------------
 7 - Instalando o JSON Server
 npm i json-server@1.0.0-alpha.21
@@ -59,3 +60,12 @@ npm i style-loader@3.3.3 css-loader@6.8.1 --save-dev
 npm i copy-webpack-plugin@11.0.0 --save-dev
 9.9 - Instalação do Babel
 npm i babel-loader@9.1.3 @babel/core@7.23.7 @babel/preset-env@7.23.7 --save-dev
+
+-------------------------------------------------- 
+10 - Instalar a biblioteca dayjs
+npm i dayjs@1.11.10
+10.1 - Criar  a pasta src\libs para adicionar as bibliotecas instaladas
+10.2 - criar o arquivo dayjs com as seguintes configurações:
+  import dayjs from "dayjs";
+  import "dayjs/locale/pt-br";
+  dayjs.locale("pt-br");
