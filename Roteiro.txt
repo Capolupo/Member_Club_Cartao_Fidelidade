@@ -69,3 +69,14 @@ npm i dayjs@1.11.10
   import dayjs from "dayjs";
   import "dayjs/locale/pt-br";
   dayjs.locale("pt-br");
+
+---------------------------------------------------
+11 - Criar a pasta src/services
+11.1 - criar o arquivo api-config.js
+11.2 - criar o arquivo fetch-client-information.js
+*Arquivo responsavel por buscar as informações do cliente
+
+---------------------------------------------------
+12 - Criando a formatação do Input
+12.1 - Criar a pasta src>modules>form>input.js
+12.3 - Atualizar o main.js com o import do input.js
