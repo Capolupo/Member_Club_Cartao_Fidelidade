@@ -1,6 +1,9 @@
 import { fetchClientInformation } from "../../services/fetch-client-information";
 import { loadClientInformation } from "../info/load-client-info";
-
+import { loadAppointmentsHistory } from "../history/load-appointments-history";
+//124-537-835-230
+//207-245-699-104
+//523-114-876-908
 const form = document.querySelector("form");
 const clientId = document.querySelector("form input");
 
@@ -23,4 +26,5 @@ form.addEventListener("submit", async (e) => {
   }
 
   loadClientInformation(data);
+  loadAppointmentsHistory(data.appointmentHistory);
 });  
