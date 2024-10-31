@@ -293,6 +293,9 @@ main#content{
       width: 5rem;
     }
   }
+  .slot:hover{
+    cursor: pointer ;
+  }
 }
 
 @media (width < 60em) {
